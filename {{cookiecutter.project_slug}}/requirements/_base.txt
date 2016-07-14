@@ -1,0 +1,8 @@
+pip==8.1.2
+setuptools==24.0.2
+future==0.15.2
+wheel==0.29.0
+
+{% if cookiecutter.command_line_interface|lower == 'click' %}
+click>=6.0
+{%- endif %}

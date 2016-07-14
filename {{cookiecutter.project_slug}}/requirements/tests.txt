@@ -1,0 +1,5 @@
+{% if cookiecutter.use_pytest == 'y' -%}
+pytest==2.9.2
+pytest-runner==2.8
+{%- endif %}
+coverage==4.0.3
